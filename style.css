@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+     gap: 30%;
+    margin: 0;
+   height: 100vh;
+   min-width:100vw;
+    background-color: #FEC7B4;
+    box-sizing: border-box;
+} 
+header {
+ 
+  top: 0;
+  left: 0;
+  width: 100%;
+   
+   background: #e8e8e8;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ z-index: 0;
+    
+} .imagem-cabecalho {
+   max-width: 128px; 
+   max-height: 128px;
+}
+ 
+     
+.links-cabecalho {
+    color: #2e2e2e;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all .55s ease;
+    padding-right: 10%;
+    
+
+     
+     
+     
+} .links-cabecalho:hover {
+    color:rgb(201, 128, 152);
+}
+ main {
+    width: 100%;
+    height: 100%;
+    gap: 100%;
+    border-radius: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    background-image: linear-gradient(to right,#fb918d,#984930) ;
+    transition: all .55s ease-in 0s;
+
+ } main:hover{
+   box-shadow: 20px 20px 100px 15px rgb(241, 107, 107);
+ }
+    
+ .flextextos {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content:space-between;
+    align-items: center;
+    height: 100%;
+ }
+  
+ h1{
+    margin: auto;
+    padding-right: 10px;
+    
+    font-size: 2rem;
+}
+.text-highlight {
+    
+    font-family: "Allura", cursive;
+    font-size: 50px;
+    font-weight: 400;
+} 
+ .conteudo {
+    margin: 1% ;
+    height: 100%;
+    font-size: 1.2rem;
+    width: 50vw;
+    
+ } .imagemfundo {
+    image-orientation: from-image;
+    display: block;
+    padding-bottom: 9.25%;
+    height: 100%;
+    margin: 0px;
+
+ } #indicacoes {
+    background: url(./assets/vasco.png)  no-repeat center fixed;
+    background-size: cover;
+   color: #CAEDFF;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-size: 1.2rem;
+   height: 100%;
+    width: 100vw;
+ transition: all .55s ease-in 0s;
+
+ } ol {
+    text-decoration: none;
+    gap: 10%;
+    height: 50%;
+ } .tittle-prizes{
+  
+    font-weight:600;
+    text-align: center;
+    font-size: 2rem;
+
+ } .redes {
+   font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+   
+   background-image: linear-gradient(to bottom, wheat, lightyellow);
+   transition: all .55s ease-in 0s;  
+   width: 100vw;
+   
+   
+
+ } .tittleredes {
+   
+text-align: center;
+   margin: 50px;
+   display: block;
+   color:rgb(243, 73, 101);
+   font-weight: 600; }
+   
+   .botoes {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 100px;
+      text-align: center;
+      
+   }
+   
+  .botoesredes {
+    margin: 10px;
+   color: rgb(243, 73, 101);
+   text-decoration: none;
+   width: 100px;
+   height: 10px;
+    padding: 20px;
+    padding-top: 10px;
+   border: 5px solid   rgb(243, 73, 101);
+   
+   background-color: rgba(243, 73, 101, 0.11);
+   border-radius: 10%;
+   transition: all .55s ease 0s;
+   text-align: center;
+
+ } 
+  .botoesredes:hover {
+   color:wheat;
+   background-color: rgb(243, 73, 101);
+    transform: translateY(-10px);
+ }  
+ footer {
+  
+    
+   background-image: linear-gradient( to top, white, #FEC7B4 );
+   padding: 3%;
+   text-align: center;
+ } .orcamento {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: auto;
+ } .wpptext {
+   color: rgb(243, 73, 101); }
+ 
+   .redes:hover {
+      box-shadow: 20px 20px 100px 15px rgb(241, 107, 107); 
+   } 
+
+   #indicacoes:hover {
+      box-shadow: 20px 20px 100px 15px rgb(241, 107, 107);
+   }
+ 
+ 
+  
+   @media (max-width:768px) {
+      header {
+ 
+         top: 0;
+         left: 0;
+         width: 100%;
+          
+          background: #e8e8e8;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          
+     
+   } .links-cabecalho {
+      margin: auto;
+      padding: 10px;
+   }
+ }
+   @media (min-width:1800px) {
+      .imagemfundo {
+         image-orientation: from-image;
+         display: block;
+         padding-top: 2.5%;
+         height: 93vh;
+         margin: 0px;
+   } }
+
+   
+ .flexprizes {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 50%;
+ } .imagemprizes {
+  display: inline-block;
+  position: absolute;
+   right: 0;
+   height: 49.5%;
+   margin-top: 13px;
+   
+ }
+ 
+ 
+
+ 
+
+  
+   
+ 
+
+ 
+ 
+ 
+    
+ 
