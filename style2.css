@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+   --cor-principal: #265073;
+   --cor-secundaria: rgb(25, 95, 122);
+}
+
+*{
+   min-width: none;
+}
+
+html {
+   background: url(./assets/background.png) no-repeat center fixed;
+   background-size: cover;
+ }
+
+body {
+    display: flex;
+    flex-direction: column;
+     gap: 30%;
+    margin: 0;
+   height: 100vh;
+   width:100vw;
+   background-image: url('./assets/background.png'); /* The image used */
+   background-color: #cccccc; /* Used if the image is unavailable */
+   height: 500px; /* You must set a specified height */
+   background-position:initial; /* Center the image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   
+   background-size:cover; 
+    box-sizing: border-box;
+} 
+
+
+header {
+ 
+  top: 0;
+  left: 0;
+  width: 100vw;
+   
+   background: #e8e8e8;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ 
+ 
+    
+} .imagem-cabecalho {
+  
+  width: 128px;
+  height: 128px;
+}
+ 
+     
+.links-cabecalho {
+    color: #2e2e2e;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 15px;
+   
+    padding-right: 10%; 
+    
+    
+
+     
+     
+     
+} .links-cabecalho:hover {
+    border: 2px solid var(--cor-principal);
+    text-align: center;
+    border-radius: 5%;
+    background-color: var(--cor-principal);
+    padding: 10px;
+    color: #e8e8e8;
+    margin-right:8%;
+}
+    main {
+        background-color: beige;
+        text-align: center;
+        transition: all .55s ease-in 0s;
+    } 
+    main:hover{
+        box-shadow: 20px 20px 100px 15px var(--cor-secundaria);
+    }
+
+    .recomenda {
+        font-family: "Montserrat", sans-serif ;
+        font-weight: 800;
+        font-size: 2rem;
+    } 
+    .gramado {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.2rem;
+        text-align: start;
+        margin: 2px;
+    } 
+    .tittle {
+        font-size: 2rem;
+    }
+    div.gallery {
+        margin: 20px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+        
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+        
+    }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        .bogota {
+            padding-top: 25%;
+            font-family: "Montserrat", sans-serif;
+            font-size: 1.2rem;
+            text-align: start;
+            margin: 2px;
+        }
+       footer{
+        background-color: transparent;
+        padding: 1%;
+       }

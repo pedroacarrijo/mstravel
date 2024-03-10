@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+   --cor-principal: #265073;
+   --cor-secundaria: rgb(25, 95, 122);
+}
 
+*{
+   min-width: none;
+}
 
-
-
+html {
+   background: url(./assets/background.png) no-repeat center fixed;
+   background-size: cover;
+ }
 
 body {
     display: flex;
@@ -11,21 +20,30 @@ body {
      gap: 30%;
     margin: 0;
    height: 100vh;
-   min-width:100vw;
-    background-color: #FEC7B4;
+   width:100vw;
+   background-image: url('./assets/background.png'); /* The image used */
+   background-color: #cccccc; /* Used if the image is unavailable */
+   height: 500px; /* You must set a specified height */
+   background-position:initial; /* Center the image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   
+   background-size:cover; 
     box-sizing: border-box;
 } 
+
+
 header {
  
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
    
    background: #e8e8e8;
    display: flex;
    justify-content: space-between;
    align-items: center;
  z-index: 0;
+ 
     
 } .imagem-cabecalho {
    max-width: 128px; 
@@ -40,7 +58,7 @@ header {
     font-weight: 900;
     text-decoration: none;
     font-size: 15px;
-    transition: all .55s ease;
+    
     padding-right: 10%;
     
 
@@ -48,10 +66,16 @@ header {
      
      
 } .links-cabecalho:hover {
-    color:rgb(201, 128, 152);
+    border: 2px solid var(--cor-principal);
+    text-align: center;
+    border-radius: 5%;
+    background-color: var(--cor-principal);
+    padding: 10px;
+    color: #e8e8e8;
+    margin-right:8%;
 }
  main {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     gap: 100%;
     border-radius: 1px;
@@ -62,7 +86,7 @@ header {
     transition: all .55s ease-in 0s;
 
  } main:hover{
-   box-shadow: 20px 20px 100px 15px rgb(241, 107, 107);
+   box-shadow: 20px 20px 100px 15px var(--cor-secundaria);
  }
     
  .flextextos {
@@ -136,7 +160,7 @@ header {
 text-align: center;
    margin: 50px;
    display: block;
-   color:rgb(243, 73, 101);
+   color:var(--cor-principal);
    font-weight: 600; }
    
    .botoes {
@@ -144,35 +168,36 @@ text-align: center;
       flex-direction: row;
       justify-content: center;
       gap: 100px;
-      text-align: center;
+      align-items: center;
+      
       
    }
    
   .botoesredes {
     margin: 10px;
-   color: rgb(243, 73, 101);
+   color: var(--cor-principal);
    text-decoration: none;
    width: 100px;
    height: 10px;
     padding: 20px;
     padding-top: 10px;
-   border: 5px solid   rgb(243, 73, 101);
+   border: 5px solid   var(--cor-principal);
    
-   background-color: rgba(243, 73, 101, 0.11);
+   background-color: var(--cor-principal 0.1);
    border-radius: 10%;
    transition: all .55s ease 0s;
-   text-align: center;
+   text-align:center ;
 
  } 
   .botoesredes:hover {
    color:wheat;
-   background-color: rgb(243, 73, 101);
+   background-color: var(--cor-principal);
     transform: translateY(-10px);
  }  
  footer {
   
     
-   background-image: linear-gradient( to top, white, #FEC7B4 );
+   background-image:transparent;
    padding: 3%;
    text-align: center;
  } .orcamento {
@@ -181,14 +206,15 @@ text-align: center;
    align-items: center;
    margin: auto;
  } .wpptext {
-   color: rgb(243, 73, 101); }
+   text-align: center;
+   color: var(--cor-principal); }
  
    .redes:hover {
-      box-shadow: 20px 20px 100px 15px rgb(241, 107, 107); 
+      box-shadow: 20px 20px 100px 15px var(--cor-secundaria); 
    } 
 
    #indicacoes:hover {
-      box-shadow: 20px 20px 100px 15px rgb(241, 107, 107);
+      box-shadow: 20px 20px 100px 15px var(--cor-secundaria);
    }
  
  
@@ -233,8 +259,8 @@ text-align: center;
    right: 0;
    height: 49.5%;
    margin-top: 13px;
-   
  }
+
  
  
 
