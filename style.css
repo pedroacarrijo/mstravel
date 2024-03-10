@@ -74,6 +74,31 @@ header {
     color: #e8e8e8;
     margin-right:8%;
 }
+
+.flextextos {
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   justify-content:space-evenly;
+   align-items: center;
+   height: auto;
+   width: 55%;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: black;
+   backdrop-filter: blur(10px);
+   
+   
+ }
+
+   h1{
+     
+      font-size: 2rem; 
+      
+   }
+
+
+   
  main {
     width: 100vw;
     height: 100%;
@@ -82,28 +107,22 @@ header {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight:400;
-    background-image: linear-gradient(to right,#fb918d,#984930) ;
+    background-image: url(./assets/fundo1.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
     transition: all .55s ease-in 0s;
-
+    
  } main:hover{
    box-shadow: 20px 20px 100px 15px var(--cor-secundaria);
  }
     
- .flextextos {
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-    justify-content:space-between;
-    align-items: center;
-    height: 100%;
- }
+ 
+ 
   
- h1{
-    margin: auto;
-    padding-right: 10px;
-    
-    font-size: 2rem;
-}
+
 .text-highlight {
     
     font-family: "Allura", cursive;
@@ -111,9 +130,9 @@ header {
     font-weight: 400;
 } 
  .conteudo {
-    margin: 1% ;
+    margin: 3% ;
     height: 100%;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     width: 50vw;
     
  } .imagemfundo {
