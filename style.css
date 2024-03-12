@@ -153,6 +153,7 @@ header {
    height: 100%;
     width: 100vw;
  transition: all .55s ease-in 0s;
+   
 
  } ol {
     text-decoration: none;
@@ -269,15 +270,22 @@ text-align: center;
    
  .flexprizes {
    display: flex;
-   align-items: center;
-   justify-content: space-between;
+   
+   justify-content: center;
+   
    height: 50%;
+   
  } .imagemprizes {
   display: inline-block;
   position: absolute;
    right: 0;
    height: 49.5%;
    margin-top: 13px;
+ } 
+ .estilolista {
+   list-style-type: none;
+  
+   
  }
 
  
