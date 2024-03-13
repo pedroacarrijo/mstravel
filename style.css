@@ -153,14 +153,17 @@ header {
    height: 100%;
     width: 100vw;
  transition: all .55s ease-in 0s;
+ 
+ 
    
 
  } ol {
+   
     text-decoration: none;
-    gap: 10%;
+    gap: 30%;
     height: 50%;
  } .tittle-prizes{
-  
+  margin: 1em;
     font-weight:600;
     text-align: center;
     font-size: 2rem;
@@ -225,8 +228,11 @@ text-align: center;
    flex-direction: column;
    align-items: center;
    margin: auto;
+   
  } .wpptext {
    text-align: center;
+   margin: 1em;
+   font-weight: 500;
    color: var(--cor-principal); }
  
    .redes:hover {
@@ -270,10 +276,10 @@ text-align: center;
    
  .flexprizes {
    display: flex;
-   
+  
    justify-content: center;
+   margin: 1em;
    
-   height: 50%;
    
  } .imagemprizes {
   display: inline-block;
