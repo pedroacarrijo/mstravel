@@ -15,6 +15,7 @@ html {
  }
 
 body {
+    font-family: 'Montserrat' , sans-serif;
     display: flex;
     flex-direction: column;
      gap: 30%;
@@ -87,17 +88,21 @@ header {
 
     .recomenda {
         font-family: "Montserrat", sans-serif ;
-        font-weight: 800;
+        font-weight: 700;
         font-size: 2rem;
     } 
     .gramado {
         font-family: "Montserrat", sans-serif;
         font-size: 1.2rem;
         text-align: start;
-        margin: 2px;
+        margin: 5px ;
+       
     } 
     .tittle {
         font-size: 2rem;
+        padding: .5em;
+        text-align: center;
+        font-weight: 500;
     }
     div.gallery {
         margin: 20px;
@@ -130,9 +135,14 @@ header {
             font-family: "Montserrat", sans-serif;
             font-size: 1.2rem;
             text-align: start;
-            margin: 2px;
+            margin: 5px;
         }
        footer{
         background-color: transparent;
         padding: 1%;
+       }
+       .subtitulo {
+        padding: 1em;
+        font-size: 1.4em;
+        font-weight: 500;
        }

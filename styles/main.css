@@ -1,0 +1,57 @@
+.biografia {
+    background: linear-gradient(to bottom, wheat , white);
+    width: 100%;
+    
+    box-shadow: 0  10px 10px rgba(0, 0, 0, 0.295);
+    border-radius: 20px;
+}
+.textos-imagem {
+    display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.textos-main {
+    font-family: "Montserrat", sans-serif ;
+    
+}
+
+.titulo-main{
+    text-align: center;
+    font-size: 2em;
+}
+.text-highlight{
+    font-size: 2em;
+}
+.conteudo-main {
+    font-size: 1.2em;
+    text-align: left;
+    width: 600px;
+    
+}
+.imagem-main {
+    height: 400px;
+    width: 400px;
+    
+}
+.botao-saibamais {
+    display: flex;
+    padding-right: 8.5em;
+    padding-bottom: 3em;
+    justify-content: end;
+
+}
+.link-bio {
+    background-color: var(--cor-secundaria);
+    padding: 1em 2em 1em 2em; 
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    border-radius: 10px;
+    transition: all .3s ease 0s;
+    box-shadow: 0  4px 4px rgba(0, 0, 0, 0.747);
+}
+.link-bio:hover {
+    transform: translateY(-15px);
+}
