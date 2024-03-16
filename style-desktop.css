@@ -291,6 +291,7 @@ text-align: center;
 
    html {
       background: url(./assets/background.png) repeat-y;
+      width:100%;
       background-color: #e8e8e8;
       background-position: initial;
       background-size: cover;

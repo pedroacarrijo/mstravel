@@ -180,6 +180,7 @@ header {
        @media screen and (max-width:1200px) {
         html {
             background: url(./assets/background.png) repeat-y;
+            width: 100%;
             background-position: initial;
             background-color: #e8e8e8;
             background-size: cover;
