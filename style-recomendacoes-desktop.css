@@ -87,11 +87,12 @@ header {
     main {
         background-color: beige;
         text-align: center;
-        transition: all .55s ease-in 0s;
+        
+        box-shadow: 0  10px 10px rgba(0, 0, 0, 0.295);
+      border-radius: 20px;
     } 
-    main:hover{
-        box-shadow: 20px 20px 100px 15px var(--cor-secundaria);
-    }
+   
+    
     .recomendacoes-main{
     text-align: center;
     }
