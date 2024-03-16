@@ -307,7 +307,19 @@ header {
                 text-align: start;
                 margin: 5px ; }
 
-
+                .rodape{
+                    background-color: #e8e8e8;
+                    width: 100%;
+            
+                }
+                .footer-titulo{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 1em;
+                    color: #2e2e2e;
+                    text-align: center;
+                    
+                    padding: 2em;
+                }
                 
 
        }

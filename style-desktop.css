@@ -284,6 +284,7 @@ text-align: center;
         
         padding: 2em;
     }
+    
   
 @media screen and (max-width:1200px) {
    
@@ -357,7 +358,7 @@ text-align: center;
   .textos-imagem {
       display: flex;
       flex-direction: column;
-      width: 100%;
+      width: 90%;
       align-items: center;
       margin-left: 1em;
   }
@@ -392,7 +393,7 @@ text-align: center;
   .link-bio {
       background-color: var(--cor-secundaria);
       padding: 1em 2em 1em 2em; 
-      width: 300px;
+      width: 50%;
       text-align: center;
       text-decoration: none;
       font-family: "Montserrat", sans-serif;
@@ -486,7 +487,19 @@ text-align: center;
           text-align: center;
          }
 
-        
+         .rodape{
+            background-color: #e8e8e8;
+            width: 100%;
+    
+        }
+        .footer-titulo{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1em;
+            color: #2e2e2e;
+            text-align: center;
+            
+            padding: 2em;
+        }
 
 
 
