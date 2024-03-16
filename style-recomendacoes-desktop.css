@@ -168,7 +168,7 @@ header {
 
        .rodape{
         background-color: #e8e8e8;
-        width: 100%;
+        width: auto;
 
     }
     .footer-titulo{
@@ -176,8 +176,8 @@ header {
         font-size: 1em;
         color: #2e2e2e;
         text-align: center;
-        margin: auto;
-        padding: 1em;
+        
+        padding: 2em;
     }
 
        @media screen and (max-width:1200px) {
@@ -315,7 +315,7 @@ header {
 
                 .rodape{
                     background-color: #e8e8e8;
-                    width: 100%;
+                    width: auto;
             
                 }
                 .footer-titulo{
@@ -323,8 +323,8 @@ header {
                     font-size: 1em;
                     color: #2e2e2e;
                     text-align: center;
-                    margin: auto;
-                    padding: 1em;
+                    
+                    padding: 2em;
                 }
 
 
