@@ -114,6 +114,7 @@ header {
     }
     .conteudo {
         width: 90%;
+        text-align: center;
     }
 
     div.gallery {
