@@ -294,10 +294,8 @@ header {
                     text-align: start;
                     margin: 5px;
                 }
-               footer{
-                background-color: transparent;
-                padding: 1%;
-               }
+              
+               
                .subtitulo {
                 padding: 1em;
                 font-size: 1.4em;
@@ -325,7 +323,5 @@ header {
                     
                     padding: 2em;
                 }
-
-
 
        }
