@@ -92,7 +92,9 @@ header {
     main:hover{
         box-shadow: 20px 20px 100px 15px var(--cor-secundaria);
     }
-
+    .recomendacoes-main{
+    text-align: center;
+    }
     .recomenda {
         font-family: "Montserrat", sans-serif ;
         font-weight: 700;
@@ -113,8 +115,10 @@ header {
         
     }
     .conteudo {
-        width: 90%;
+        width: 100%;
+        
         text-align: center;
+       
     }
 
     div.gallery {
