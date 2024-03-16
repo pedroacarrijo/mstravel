@@ -181,7 +181,7 @@ header {
         html {
             background: url(./assets/background.png) repeat-y;
             background-position: initial;
-            background-color: transparent;
+            background-color: #e8e8e8;
             background-size: cover;
             height: 100%;
             width: 100%;
