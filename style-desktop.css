@@ -494,6 +494,8 @@ text-align: center;
          .rodape{
             background-color: #e8e8e8;
             width: 100%;
+            text-align: center;
+            border-radius: 10px;
     
         }
         .footer-titulo{
