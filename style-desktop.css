@@ -295,7 +295,9 @@ text-align: center;
       height: 100%;
       width: 100%;
    }
-   
+   body {
+    width: 100%;
+   }
   
   .cabecalho {
       display: flex;
