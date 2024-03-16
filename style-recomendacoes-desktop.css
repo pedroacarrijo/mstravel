@@ -110,7 +110,12 @@ header {
         padding: .5em;
         text-align: center;
         font-weight: 500;
+        
     }
+    .conteudo {
+        width: 90%;
+    }
+
     div.gallery {
         margin: 20px;
         border: 1px solid #ccc;
