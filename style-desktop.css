@@ -154,7 +154,8 @@ body {
    height: 100%;
     width: 100vw;
  transition: all .55s ease-in 0s;
- 
+ box-shadow: 0  10px 10px rgba(0, 0, 0, 0.295);
+      border-radius: 20px;
  
    
 
@@ -177,6 +178,8 @@ body {
    background-image: linear-gradient(to bottom, wheat, lightyellow);
    transition: all .55s ease-in 0s;  
    width: 100vw;
+   box-shadow: 0  10px 10px rgba(0, 0, 0, 0.295);
+      border-radius: 20px;
    
    
 
@@ -234,13 +237,7 @@ text-align: center;
    font-weight: 500;
    color: var(--cor-principal); }
  
-   .redes:hover {
-      box-shadow: 20px 20px 100px 15px var(--cor-secundaria); 
-   } 
-
-   #indicacoes:hover {
-      box-shadow: 20px 20px 100px 15px var(--cor-secundaria);
-   }
+   
  
  
   
