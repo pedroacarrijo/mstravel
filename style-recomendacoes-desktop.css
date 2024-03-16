@@ -118,7 +118,8 @@ header {
     .conteudo {
         width: 95%;
         margin: 1em 2em;
-        text-align: center;
+        text-align: left;
+        align-items: center;
        
     }
 
