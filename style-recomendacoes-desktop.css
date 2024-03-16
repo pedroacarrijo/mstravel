@@ -156,10 +156,7 @@ header {
             text-align: start;
             margin: 5px;
         }
-       footer{
-        background-color: transparent;
-        padding: 1%;
-       }
+      
        .subtitulo {
         padding: 1em;
         font-size: 1.4em;
@@ -176,7 +173,7 @@ header {
         font-size: 1em;
         color: #2e2e2e;
         text-align: center;
-        width: 80%;
+        
         padding: 2em;
     }
 
@@ -315,8 +312,8 @@ header {
 
                 .rodape{
                     background-color: #e8e8e8;
+                    width: 100%;
                     
-                    text-align: center;
                     border-radius: 10px;
             
                 }
