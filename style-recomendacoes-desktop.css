@@ -85,7 +85,7 @@ header {
     margin-right:8%;
 }
     main {
-        background-color: beige;
+        background: linear-gradient(to bottom, wheat, white);
         text-align: center;
         
         box-shadow: 0  10px 10px rgba(0, 0, 0, 0.295);
