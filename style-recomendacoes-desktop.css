@@ -315,7 +315,7 @@ header {
 
                 .rodape{
                     background-color: #e8e8e8;
-                    width: 100%;
+                    
                     text-align: center;
                     border-radius: 10px;
             
@@ -325,7 +325,7 @@ header {
                     font-size: 1em;
                     color: #2e2e2e;
                     text-align: center;
-                    width: 80%;
+                    
                     padding: 2em;
                 }
 
