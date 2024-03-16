@@ -310,6 +310,7 @@ text-align: center;
       
       
       
+      
   }
   .imagem-cabecalho {
       width: 128px;
@@ -356,7 +357,7 @@ text-align: center;
   .textos-imagem {
       display: flex;
       flex-direction: column;
-      width: 90%;
+      width: 100%;
       align-items: center;
       margin-left: 1em;
   }
