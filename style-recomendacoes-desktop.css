@@ -166,6 +166,19 @@ header {
         font-weight: 500;
        }
 
+       .rodape{
+        background-color: #e8e8e8;
+
+    }
+    .footer-titulo{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
+        color: #2e2e2e;
+        text-align: center;
+        margin: auto;
+        padding: 1em;
+    }
+
        @media screen and (max-width:1200px) {
         html {
             background: url(./assets/background.png) repeat-y;
@@ -298,6 +311,19 @@ header {
                 text-align: start;
                 margin: 5px ; }
 
+
+                .rodape{
+                    background-color: #e8e8e8;
+            
+                }
+                .footer-titulo{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 1em;
+                    color: #2e2e2e;
+                    text-align: center;
+                    margin: auto;
+                    padding: 1em;
+                }
 
 
 

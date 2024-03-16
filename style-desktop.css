@@ -278,7 +278,18 @@ text-align: center;
     align-items: center;
     
  }
+    .rodape{
+        background-color: #e8e8e8;
 
+    }
+    .footer-titulo{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
+        color: #2e2e2e;
+        text-align: center;
+        margin: auto;
+        padding: 1em;
+    }
   
 @media screen and (max-width:1200px) {
    
@@ -479,6 +490,20 @@ text-align: center;
           font-size: 1em;
           text-align: center;
          }
+
+         .rodape{
+            background-color: #e8e8e8;
+    
+        }
+        .footer-titulo{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1em;
+            color: #2e2e2e;
+            text-align: center;
+            margin: auto;
+            padding: 1em;
+        }
+
 
 
 }
