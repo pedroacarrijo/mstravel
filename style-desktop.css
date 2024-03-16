@@ -92,7 +92,8 @@ body {
   .textos-imagem {
       display: flex;
   justify-content: space-evenly;
-  align-items: center;
+    text-align: center;
+  
   }
   .textos-main {
       font-family: "Montserrat", sans-serif ;
@@ -121,15 +122,16 @@ body {
       
   }
   .botao-saibamais {
-      display: flex;
+      
       padding-right: 8.5em;
       padding-bottom: 3em;
-      justify-content: end;
+      
   
   }
   .link-bio {
       background-color: var(--cor-secundaria);
       padding: 1em 2em 1em 2em; 
+      margin: 2em;
       width: 300px;
       text-align: center;
       text-decoration: none;
@@ -268,6 +270,14 @@ text-align: center;
    margin: auto;
  }
  
+ .block-imagem-botão {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3em;
+    align-items: center;
+    
+ }
 
   
 @media screen and (max-width:1200px) {
