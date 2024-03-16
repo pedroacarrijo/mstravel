@@ -280,7 +280,7 @@ text-align: center;
  }
     .rodape{
         background-color: #e8e8e8;
-
+        width: 100%;
     }
     .footer-titulo{
         font-family: 'Montserrat', sans-serif;
@@ -493,6 +493,7 @@ text-align: center;
 
          .rodape{
             background-color: #e8e8e8;
+            width: 100%;
     
         }
         .footer-titulo{
