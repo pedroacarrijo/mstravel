@@ -111,7 +111,7 @@ body {
   }
   .conteudo-main {
       font-size: 1.2em;
-      text-align: left;
+      text-align: center;
       width: 600px;
       
   }
@@ -347,7 +347,7 @@ text-align: center;
   }
   .conteudo-main {
    font-size: 1.2em;
-   text-align: left;
+   text-align: center;
    width: 300px;
    
 }
