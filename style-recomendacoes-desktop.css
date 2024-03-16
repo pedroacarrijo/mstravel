@@ -166,7 +166,7 @@ header {
         font-weight: 500;
        }
 
-       @media screen and (max-width:600px) {
+       @media screen and (max-width:1200px) {
         html {
             background: url(./assets/background.png) repeat-y;
             background-position: initial;
