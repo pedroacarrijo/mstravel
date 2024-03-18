@@ -21,8 +21,8 @@
 </p>
 <p>
   Technologies used:
-  ![html logo] (https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-   ![css logo] (https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<img loading="lazy" src=https://img.shields.io/badge/CSS3-1572B6/>
+  <img loading='lazy' src=https://img.shields.io/badge/HTML5-E34F26/>
 </p>
 
 
